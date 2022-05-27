@@ -73,7 +73,8 @@ header{
     backdrop-filter: blur(4.7px);
     -webkit-backdrop-filter: blur(4.7px);
     width: 350px; 
-    height: 85vh;
+    /* height: 85vh; */
+    height: 500px;
     padding: 3% 0;
     transition: 0.3s all;
     /*backface-visibility: hidden;    
@@ -85,7 +86,8 @@ header{
     transition: 0.3s all;
     /* width: 1300px; */
     width: 95vw;
-    height: 85vh;
+    /* height: 85vh; */
+    height: 500px;
     justify-content: left;
     padding: 5%;
 }
