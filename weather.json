@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -99.5105,
+        "lat": 27.48
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "cielo claro",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 30.46,
+        "feels_like": 33.3,
+        "temp_min": 30.46,
+        "temp_max": 30.46,
+        "pressure": 1015,
+        "humidity": 58,
+        "sea_level": 1015,
+        "grnd_level": 1001
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.2,
+        "deg": 161,
+        "gust": 5.84
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1653667156,
+    "sys": {
+        "country": "MX",
+        "sunrise": 1653651863,
+        "sunset": 1653701183
+    },
+    "timezone": -18000,
+    "id": 3522551,
+    "name": "Nuevo Laredo",
+    "cod": 200
+}

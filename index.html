@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <title>Glassmorphism</title>
+</head>
+<body>
+    <header>
+        <nav class="header_nav">
+            <div class="nav-info">
+                <img src="resources/PartlyCloudy.png" alt="nubecitas">
+                <p>Instituto Tecnológico de Nuevo Laredo</p>
+            </div>
+        </nav>
+        <div class="header_container">
+            <div class="card" id="card">
+                <div class="card-content">
+                    <img class="iconoTemperatura" src="resources/ONLY CLOUD.png" alt="PartlyCloudy">
+                <div class="card-temperature">
+                    <h1 class="temperatura"></h1>
+                    <p>°C</p>
+                </div>
+                <p class="descripcion">Mayormente Lluvioso</p>
+                <p class="ciudad">Nuevo Laredo</p>
+                <p class="fecha">Lunes: 24 de Mayo de 2022</p>
+                <div class="box">
+                    <div class="box-update">
+                        <span class="update-circle"></span>
+                        <p class="update">Up to date</p>
+                        <span class="update-circle"></span>
+                    </div>
+                </div>
+                </div>
+                <div class="card-content2">
+                    <div class="cardTitle-container">
+                        <p class="cardTitle">Datos</p>
+                    </div>
+                    <p >Ubicacion:</p>
+                    <p >Tec Nuevo Laredo</p>
+                    <p class="elevacion">Elevación: </p>
+                    <p class="elevacion">126m</p>
+                    <p >Latitud:</p>
+                    <p class="latitud"></p>
+                    <p></p>
+                </div>
+                <div class="card-content3">
+                    <div class="cardTitle-container">
+                        <p class="cardTitle">Condiciones Actuales</p>
+                    </div>
+                    <p class="fecha2">Lunes: 24 de Mayo de 2022</p>
+                    <p class="ambiente">Temperatura ambiente: 27.7°C</p>
+                    <p >Humedad:</p>
+                    <p class="humedad"></p>
+                    <p >Sensación térmica:</p>
+                    <p class="sensacion"></p>
+                    <!-- <p>Radiación Solar: 327 W/m2</p> -->
+
+                </div>
+                <div class="card-content4">
+                    <div class="cardTitle-container">
+                        <p class="cardTitle">Información</p>
+                    </div>
+                    <p >Temperatura máxima:</p>
+                    <p class="temperaturaMaxima"></p>
+                    <p >Temperatura mínima:</p>
+                    <p class="temperaturaMinima"></p>
+                    <p >Velocidad máxima del viento:</p>
+                    <p class="velocidadViento"></p>
+                    
+                </div>
+            </div>
+        <button class="btn-masInformacion" id="verMas">
+            <i class='bx bxs-right-arrow' id="arrow"></i>
+        </button>
+        </div>
+    </header>
+    <script src="main.js"></script>
+</body>
+</html>
