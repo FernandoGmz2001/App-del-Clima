@@ -1,44 +1,82 @@
 {
-    "coord": {
-        "lon": -99.5105,
-        "lat": 27.48
-    },
-    "weather": [
+    "station_id": 139322,
+    "sensors": [
         {
-            "id": 800,
-            "main": "Clear",
-            "description": "cielo claro",
-            "icon": "01d"
+            "lsid": 529797,
+            "sensor_type": 50,
+            "data_structure_type": 2,
+            "data": [
+                {
+                    "ts": 1655222454,
+                    "bar_trend": 20,
+                    "bar": 29.849,
+                    "temp_in": 77.7,
+                    "hum_in": 56,
+                    "temp_out": 85.7,
+                    "wind_speed": 8,
+                    "wind_speed_10_min_avg": 9,
+                    "wind_dir": 108,
+                    "temp_extra_1": null,
+                    "temp_extra_2": null,
+                    "temp_extra_3": null,
+                    "temp_extra_4": null,
+                    "temp_extra_5": null,
+                    "temp_extra_6": null,
+                    "temp_extra_7": null,
+                    "temp_soil_1": null,
+                    "temp_soil_2": null,
+                    "temp_soil_3": null,
+                    "temp_soil_4": null,
+                    "temp_leaf_1": null,
+                    "temp_leaf_2": null,
+                    "temp_leaf_3": null,
+                    "temp_leaf_4": null,
+                    "hum_out": 62,
+                    "hum_extra_1": null,
+                    "hum_extra_2": null,
+                    "hum_extra_3": null,
+                    "hum_extra_4": null,
+                    "hum_extra_5": null,
+                    "hum_extra_6": null,
+                    "hum_extra_7": null,
+                    "rain_rate_clicks": 0,
+                    "rain_rate_in": 0,
+                    "rain_rate_mm": 0,
+                    "uv": 3.1,
+                    "solar_rad": 724,
+                    "rain_storm_clicks": 0,
+                    "rain_storm_in": 0,
+                    "rain_storm_mm": 0,
+                    "rain_storm_start_date": null,
+                    "rain_day_clicks": 0,
+                    "rain_day_in": 0,
+                    "rain_day_mm": 0,
+                    "rain_month_clicks": 0,
+                    "rain_month_in": 0,
+                    "rain_month_mm": 0,
+                    "rain_year_clicks": 296,
+                    "rain_year_in": 2.3307087,
+                    "rain_year_mm": 59.2,
+                    "et_day": 0.025,
+                    "et_month": 0.294,
+                    "et_year": 2.546,
+                    "moist_soil_1": null,
+                    "moist_soil_2": null,
+                    "moist_soil_3": null,
+                    "moist_soil_4": null,
+                    "wet_leaf_1": null,
+                    "wet_leaf_2": null,
+                    "wet_leaf_3": null,
+                    "wet_leaf_4": 0,
+                    "forecast_rule": 75,
+                    "forecast_desc": "Partly cloudy and cooler.",
+                    "dew_point": 71,
+                    "heat_index": 92,
+                    "wind_chill": 85,
+                    "wind_gust_10_min": 22
+                }
+            ]
         }
     ],
-    "base": "stations",
-    "main": {
-        "temp": 30.46,
-        "feels_like": 33.3,
-        "temp_min": 30.46,
-        "temp_max": 30.46,
-        "pressure": 1015,
-        "humidity": 58,
-        "sea_level": 1015,
-        "grnd_level": 1001
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.2,
-        "deg": 161,
-        "gust": 5.84
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1653667156,
-    "sys": {
-        "country": "MX",
-        "sunrise": 1653651863,
-        "sunset": 1653701183
-    },
-    "timezone": -18000,
-    "id": 3522551,
-    "name": "Nuevo Laredo",
-    "cod": 200
+    "generated_at": 1655223016
 }
